@@ -59,7 +59,7 @@ jobs:
         uses: matlab-actions/setup-matlab@v1
 
       # Copy all the reports down into the container
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: report
           path: report
